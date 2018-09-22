@@ -26,7 +26,7 @@ public:
     void Delete(ElementType oldValue);  // if value x is in the list, then remove
     void Display(); //Display the date values in the list in the order inserted
     int Sum(); // Compute and return the sum of the values in the list
-    int Average(); // Compute and return the average of the values in the list
+    double Average(); // Compute and return the average of the values in the list
 
 private:
     node * first;
